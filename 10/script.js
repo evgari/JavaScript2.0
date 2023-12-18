@@ -77,18 +77,17 @@ if (minute >= 0 && minute < 15) {
 // а если имеет значение 'en' – то на английском. 
 // для ru - arr = ['пн', 'вт', 'ср', 'чт', 'пт', 'сб', 'вс']
 // для en - arr = ['mn', 'ts', 'wd', 'th', 'fr', 'st', 'sn'];
-{
-  let lang = 'ru';
-  let arr = [];
-  
-  if (lang == 'ru') {
-    arr = ['пн', 'вт', 'ср', 'чт', 'пт', 'сб', 'вс'];  
-  }
-  if (lang == 'en') {
-    arr = ['mn', 'ts', 'wd', 'th', 'fr', 'st', 'sn'];  
-  }
-  console.log('arr', arr);
+let lang = 'ru';
+let arr = [];
+
+if (lang == 'ru') {
+  arr = ['пн', 'вт', 'ср', 'чт', 'пт', 'сб', 'вс'];  
 }
+if (lang == 'en') {
+  arr = ['mn', 'ts', 'wd', 'th', 'fr', 'st', 'sn'];  
+}
+console.log('arr', arr);
+
 // Пример 3 
 // Напишите код, который предлагает пользователю ввести целое 
 // число. Нужно вывести на экран сколько в этом числе цифр, 
@@ -149,14 +148,13 @@ while(k <= 16) {
 }
 // Пример 8 
 // С помощью цикла найдите сумму чисел arr = [2,5,8,3,6];
-{
-  let result = 1;
-  let arr = [2, 5, 8, 3, 6];
-  for(let i = 0; i < arr.length; i++){
-      result += arr[i];
-  }
-  console.log('result', result);
+let result = 1;
+let arr2 = [2, 5, 8, 3, 6];
+for(let i = 0; i < arr2.length; i++){
+    result += arr2[i];
 }
+console.log('result', result);
+
 
 
 
